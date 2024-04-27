@@ -7,4 +7,4 @@ Backup domain: https://doublons.lol/
 <img alt="Logo" src="https://doblons.lol/img_rounded2.png" width="120" />
 
 ## Other Links
-- [Our Discord server]([https://discord.gg/kvCAZfUCjy](https://discord.gg/h84sANbJgK))
+- https://discord.gg/kvCAZfUCjy
