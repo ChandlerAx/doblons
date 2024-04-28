@@ -42,7 +42,7 @@ module.exports = {
     
 
     // General multiplier for acceleration and max speeds.
-    runSpeed: 1,
+    runSpeed: 1.5,
 
     // General damage multiplier everytime damage is dealt.
     DAMAGE_CONSTANT: 0.5,
@@ -87,7 +87,7 @@ module.exports = {
     BOTS: 10,
 
     // How much XP player-bots get per second until they reach LEVEL_CAP.
-    BOT_XP: 100,
+    BOT_XP: 10,
 
     // How much XP player-bots will receive when first created.
     BOT_START_XP: 0,
