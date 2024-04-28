@@ -6,7 +6,7 @@ Backup domain: https://doublons.lol/ (online soon) <br>
 Servers run on https://evix-datacenter.online/
 
 <br><br>
-Will be auto updated every 7 days
+this gpl be auto updated every 7 days
 
 <img alt="Logo" src="https://doblons.lol/img_rounded2.png" width="120" />
 
