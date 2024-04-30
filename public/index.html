@@ -17,6 +17,7 @@
     <meta name="theme-color" content="#8abc3f">
 </head>
 <body oncontextmenu="return false" id="mainBody">
+<div class="background-container"></div>
     <div id="gameAreaWrapper">
         <canvas id="gameCanvas" tabindex="1"></canvas>
         <input id="chatInput" type="text" maxlength="256" hidden=true>
@@ -24,10 +25,11 @@
     <div id="mainWrapper">
         <div id="startMenuWrapper">
             <div id="startMenu">
+            <div style="position: absolute; right: 8vh; bottom: 0.5vh;">Custom ad starting at ,-€20/monthly.</div>
                 <div class="startMenuHolder">
                     <div class="sliderHolder">
                         <div class="slider" id="startMenuSlidingContent">
-                            <center><img width=112 height=112 src="/img_rounded2.png" /></center>
+                            <center><img draggable="false" width=112 height=112 src="/img_rounded2.png" /></center>
                             <h1 id="gameName">Doblons.io<h1>
                             <div id="serverName">
                                 <h4 class="nopadding">Connecting...</h4>
@@ -108,16 +110,29 @@
                         <button id="startButton" tabindex="2">Play</button>
                     </div>
                 </div>
+                
+                
                 <div class="startMenuHolder shrinkable">
                     <span class="titleSpan">Changelog</span>
                     <div id="patchNotes" class="shadowScroll"></div>
                     <div id="bottomHolder">
-                        <a class="link discord"   href="https://discord.gg/h84sANbJgK">Discord Server</a>
-                        <a class="link youtube" href="https://youtube.com/doblonsio">YouTube Channel</a>
-                        <a class="link github" href="https://github.com/ChandlerAx/doblons-GPL">GPL Open Source</a>
-
+                        <a class="link discord"   href="https://discord.gg/Jx628Hhr">Discord Server</a>
+                        <a class="link youtube" href="#">YouTube Channel</a>
+                        <a class="link github" href="https://github.com/ChandlerAx/doblons">GPL Open Source</a>
+                        <a class="link shop" href="#">Doblons Shop</a>
+                        <a class="link github" href="#">a nother button</a>
+                        <a class="link github" href="#">and the last button</a>
                     </div>
                 </div>
+                
+                                <div class="ad">
+                    <a href="https://evix-datacenter.online/" onclick="window.location.href = this.href;">
+        <img class="ad_styling_gr" src="./img/ad1.png" alt="Doblons AD image" style="width: 350px; height: 370px; position: absolute; border-radius: 0.8vh;">
+    </a>
+    
+                </div>
+                
+                
             </div>
         </div>
     </div>
@@ -132,6 +147,7 @@
     <script type="module" src="./lib/protocol.js"></script>
     <script type="module" src="./lib/socketInit.js"></script>
     <script type="module" src="./app.js"></script>
+    <script src="/doblons_addon.js"></script>
     <script>
         $("#optColors").change( function () {
             if ($(this).val() == "custom") document.getElementById("optCustom").type = "text";
